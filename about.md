@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-{% include image.html url="/images/octojekyll.png" caption="Octojekyll." width=300 align="right" %}
+{% include image.html url="/images/octojekyll.gif" caption="Octojekyll." width=300 align="right" %}
 
 Academic papers.
 
