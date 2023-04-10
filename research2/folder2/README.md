@@ -1,3 +1,3 @@
-# I'm folder2
+# Sub-area 2
 
 source: `{{ page.path }}`
