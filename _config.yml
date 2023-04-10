@@ -1,22 +1,31 @@
-# Site settings
 title: Xiaojie Hu
-email: xiaojie.hu@sylu.edu.cn
-description: > # this means to ignore newlines until "baseurl:"
-  Academic Papers.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "jasonhu55.github.io" # the base hostname & protocol for your site
-twitter_username: #
-github_username:  #
+description: Academic Pages
 
-# Build settings
-markdown: kramdown
+theme: null
 
-# Other options
-permalink: blog/:year/:month/:title
-job.title: "Assistant Professor"
-excerpt_separator: "<!--more-->"
+# debug:
+#   compress: true
+#   dist: false
+#   shortcodes: true
 
-# SEO stuff
-# google_author: ""
-# google_site_verification: ""
-# bing_webmastertools_id: ""
+readme_index:
+  with_frontmatter: true
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+
+exclude:
+  - Makefile
+  - CNAME
+  - LICENSE
+  - update.sh
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - jekyll-rtd-theme.gemspec
